@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+Here's a README file for your Music Player UI project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
+deployment link ```https://task-samespace.vercel.app/ ```
+# Music Player UI
 
-## Available Scripts
+Welcome to the Music Player UI project! This project is a frontend assessment task to create a responsive music player interface using React.js.
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Design Link](#design-link)
+- [API](#api)
+- [Requirements](#requirements)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Deployment](https://task-samespace.vercel.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Design Link
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The design for the Music Player UI can be found [here](https://www.figma.com/file/RtKhzEeeuD2FtRsg2dxSe/p/Front-end-Assessment?type=design&node-id=1-2&mode=design&t=zEkwOdYyaeNx0z7m-4).
 
-### `npm run build`
+## API
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The application uses the following API to load song data:
+- **Endpoint:** `https://cms.samespace.com/items/songs`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Note:** The API will return different titles, artists, cover images, and durations, but the URL for every song will be the same.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Image URL Format:** 
+```
+https://cms.samespace.com/assets/{COVER_IMAGE_ID}
+```
 
-### `npm run eject`
+## Requirements
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Use React.js for the implementation.
+2. The interface must match the provided design.
+3. The application should be responsive. On smaller screens, the player component should be the main interface with a menu button to show the list of songs.
+4. Use REST API to load list data.
+5. Fetch images based on the "cover" key from the API.
+6. Music should continue playing if the user switches to another tab.
+7. Background gradient color should change according to the cover image of the song, as shown in the design.
+8. The interface should be fluid and interactive with animations/transitions, such as list loading animation and background color change animation.
+9. Submit the GitHub repository link and, if possible, deploy a working demo.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Search:** Search through the list of songs.
+- **Music Control:** Play, pause, skip to the next or previous song.
+- **Tab Navigation:** Switch between different tabs, e.g., For You and Top Tracks.
+- **Seeker Control:** Adjust music playback position using a seeker.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+To get started with the project, clone the repository and install the dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/yourusername/music-player-ui.git
+cd music-player-ui
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Usage
 
-### Code Splitting
+To run the application locally:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+This will start the development server and open the application in your default browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Deployment
 
-### Making a Progressive Web App
+The application is deployed on Vercel. You can access the working demo [here](https://task-samespace.vercel.app/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contributing
 
-### Advanced Configuration
+If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## License
 
-### Deployment
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to adjust any details as needed!
