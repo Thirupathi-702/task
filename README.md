@@ -1,7 +1,5 @@
-Here's a README file for your Music Player UI project:
 
----
-deployment link ```https://task-samespace.vercel.app/ ```
+## deployment link ```https://task-samespace.vercel.app/ ```
 # Music Player UI
 
 Welcome to the Music Player UI project! This project is a frontend assessment task to create a responsive music player interface using React.js.
@@ -76,15 +74,3 @@ This will start the development server and open the application in your default 
 ## Deployment
 
 The application is deployed on Vercel. You can access the working demo [here](https://task-samespace.vercel.app/).
-
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust any details as needed!
